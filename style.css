@@ -1,0 +1,95 @@
+body {
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: aquamarine;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#b49fe0 0%, #554180 100%);
+    display: table;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+}
+
+.top {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1;
+    font-family: Roboto mono;
+}
+
+#information {
+    padding: 50;
+    font-family: cursive;
+}
+p {
+    max-width: 420;
+    margin: 10px auto;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.menu {
+    list-style: none;
+    font-family: monospace;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    float: left;
+    color: blueviolet;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: cursive;
+    font-size: 10px;
+}
+
+.links:hover {
+    color: azure;
+}
